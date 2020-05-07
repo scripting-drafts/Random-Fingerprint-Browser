@@ -10,7 +10,7 @@ from pyvirtualdisplay import Display
 import time
 import random
 
-userAgentList = open('/home/ubuntu/Desktop/code/Scrapers/nou-comerciant/utilities/UserAgents.txt').read().splitlines()
+userAgentList = open('PATH_TO_YOUR_USER_AGENTS_LIST.txt').read().splitlines()
 localesList = ['ar-DZ', 'ar-EG', 'ar-IQ', 'ar-MA', 'ar-SA', 'ar-AE', 'bn-BD', 'bn-IN', 'zh-CN', 'zh-TW', 'zh-HK', 'nl-BE', 'nl-NL', 'en-GB', 'en-US', 'en-CA', 'en-IN', 'en-AU', 'en-NZ', 'en-ZA', 'fr-BE', 'fr-CH', 'fr-FR', 'fr-CA', 'fr-LU', 'de-AT', 'de-DE', 'de-CH', 'it-CH', 'it-IT', 'pt-PT', 'pt-BR', 'pt-AO', 'pt-MZ', 'es-ES', 'es-MX', 'es-MX', 'es-CO', 'es-CL', 'es-PE', 'es-VE', 'es-DO', 'sv-FI', 'sv-SE', 'ta-IN', 'ta-LK']
 
 class DisplayProfileDriver:
